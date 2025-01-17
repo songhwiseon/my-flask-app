@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="UTF-8">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flask App</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<style>
+    @font-face {
+    font-family: 'Pretendard-Regular';
+    src: url('https://fastly.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+
+    .kko-btn{
+        font-family: 'Pretendard-Regular';
+        display : flex;
+        align-items : center;
+        width : 200px;
+        height : 50px;
+        background : #FEE500;
+        border-radius : 30px;
+        border : none;                    
+        justify-content : center;
+        margin-bottom : 10px;
+        font-size : 14px;
+        font-weight : 700;
+        color : #333;
+        cursor : pointer;
+        
+    }
+    .kko-btn:hover{
+        background : rgb(70, 65, 1);
+    }
+
+    .kko-btn img{
+        width : 22px;
+        height : 20px;
+        margin-right : 5px;
+    }
+    
+</style>
+
+<body>
+
+
+    <h1>카카오 로그인</h1>
+
+    <button class="kko-btn">
+        <img src="https://cdn-icons-png.flaticon.com/512/2111/2111496.png">
+        <span>카카오 로그인</span>
+
+    </button>
+
+
+
+
+
+    <h1>flex</h1>
+    <div style="width : 200px;height : 100px;background : blue;color: white;display : flex;flex-direction : row;
+    justify-content : flex-end;align-items : flex-end;">  
+        <span >login1</span> 
+        <span >login2</span>
+        <span >login3</span>
+
+        
+
+        
+
+    </div>
+
+
+
+
+    <h1>position</h1>
+
+    
+
+    <div style="width : 200px;height : 200px;background : red;">
+        <div style="width : 50px;height : 50px;background : blue;margin-bottom : calc(100% - 100px);"></div> 
+    </div>
+
+
+
+
+
+
+</body>
+</html>

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="UTF-8">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flask App</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+
+<style>
+    @font-face {
+    font-family: 'Pretendard-Regular';
+    src: url('https://fastly.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+
+    .naver-btn{
+        font-family: 'Pretendard-Regular';
+        display : flex;
+        align-items : center;
+        width : 200px;
+        height : 50px;
+        background : #03C75A;
+        border-radius : 30px;
+        border : none;                    
+        justify-content : center;
+        margin-bottom : 10px;
+        font-size : 14px;
+        font-weight : 7 00;
+        color : #fff;
+        cursor : pointer;
+        
+    }
+    .naver-btn:hover{
+        background : #247e4c;
+    }
+
+    .naver-btn img{
+        width : 22px;
+        height : 20px;
+        margin-right : 7px;
+    }
+    
+</style>
+
+<body>
+    
+    
+    <h1>로그인 페이지</h1>
+
+    <button class="naver-btn">
+        <img src="https://play-lh.googleusercontent.com/jYtnK__ibJh9emODIgTyjZdbKym1iAj4RfoVhQZcfbG-DuTSHR5moHVx9CQnqg1yoco9">
+        <span>네이버 로그인</span>
+
+    </button>
+
+   
+
+</body>
+</html>

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>covid-19</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/covid.css') }}">
+    <script src="{{ url_for('static', filename='js/covid-19.js') }}"></script>
+</head>
+<body style="background: skyblue">
+
+	<div class="center-body">
+		
+		<div class="form-container" align="center">
+
+            <img src="https://www.bma.org.uk/media/2157/covid-19-illustration.png">
+        
+            <h1 style="margin-top: 15px;">covid-19</h1>
+
+            <input class="names" type="text" id="name" name="name" placeholder="이름 입력"/>
+
+            <input class="ages" type="number" id="age" name="age" placeholder="나이 입력"/>
+
+            <form id="uploadForm" enctype="multipart/form-data">
+
+                <input class="upload" type="file" id="imageInput" name="image" accept="image/*" />
+                <button class="submit-btn" type="submit">
+                    <img src="https://cdn-icons-png.flaticon.com/512/1092/1092216.png" >
+                    <span>업로드 & 예측하기</span>
+                </button>
+
+            </form>
+            <div id="result" style="margin-top: 20px;"></div>
+
+        </div>
+
+
+	</div>
+
+
+</body>
+</html>

@@ -1,0 +1,111 @@
+
+.center-body{
+	width:100%;
+	display: flex;
+	justify-content: center;
+}
+
+
+.form-container{
+	width:400px;
+	background: whitesmoke;
+	margin-top:100px;
+	border:1px solid #dedede;
+	border-radius:10px;
+	padding-top:20px;
+	padding-left:16px;
+	padding-right:16px;
+	padding-bottom: 20px;
+}
+
+.submit-btn{
+	width:200px;
+	padding:8px;
+	margin-top:30px;
+	border-radius: 6px;
+	background: rgb(96, 96, 248);
+	color:#fff;
+	font-weight:700;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+
+.submit-btn:hover{
+	background: blue;
+}
+
+.center-body .results{
+	margin-top:50px;
+    font-size:18px;
+    font-weight:700;
+}
+
+.names{
+	width:300px;
+    height:30px;
+	padding:6px;
+	outline: none;
+	border:1px solid #dedede;
+	border-radius:6px;
+	margin-bottom:10px;
+}
+
+.names:focus{
+	border:1px solid red;
+}
+
+
+.upload{
+	width:300px;
+    height:30px;
+	padding:6px;
+	outline: none;
+	border:1px solid #ffcc33;
+	border-radius:6px;
+	margin-top:20px;
+    font-size:14px;
+    cursor: pointer;
+  
+}
+
+
+.form-container img{
+    height: 70px;
+	margin-top: 20px;
+}
+
+.ages{
+	width:300px;
+    height:30px;
+	padding:6px;
+	outline: none;
+	border:1px solid #dedede;
+	border-radius:6px;
+	margin-top:13px;
+}
+
+.ages:focus{
+	border:1px solid red;
+}
+
+
+.result-box{
+    margin-top: 20px;
+    padding:10px;
+    border:1px solid #dedede;
+    border-radius:10px;
+	background: mintcream;
+	font-size:16px;
+	font-weight:700;
+}
+
+.submit-btn img{
+	width: 30px;
+    height: 30px;
+    margin-right: 10px;
+	margin-top: 5px;
+
+}
+
